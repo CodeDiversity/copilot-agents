@@ -1,7 +1,7 @@
 # AGENTS.md
 
 ## Tech
-- Frontend: React + Vite + TypeScript
+- Frontend: React + Vite + TypeScript, Redux Toolkit + Styled Components
 - Frontend tests: Vitest
 - Frontend lint: ESLint
 - Backend: NestJS + TypeScript
@@ -42,3 +42,7 @@
 - Keep components small.
 - Put async logic in hooks/services, not in JSX.
 - Prefer Testing Library style tests over implementation-detail tests.
+
+## Backlog grooming cadence
+- Weekly grooming: archive done items, merge duplicates, split L items, re-evaluate priorities.
+- Keep “Now” limited to 3–7 ready tickets.
